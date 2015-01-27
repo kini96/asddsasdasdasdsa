@@ -47,8 +47,13 @@ db.on('error', function(err) {
     console.log('Database error: ' + err);
 });
 
+<<<<<<< HEAD
 app.get('/partial/:partialArea/:partialName', function(req, res){
     res.render('partials/' + req.params.partialArea + '/' + req.params.partialName)
+=======
+app.get('/partial/:partialName', function(req, res){
+    res.render('partials/' + req.params.partialName)
+>>>>>>> 3a604b978fb67c84e7eaa0b59bff361eebac3146
 });
 app.get('*', function(req, res) {
 	res.render('index');
