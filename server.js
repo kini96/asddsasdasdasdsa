@@ -11,3 +11,7 @@ require('./server/config/routes') (app);
 
 app.listen(config.port);
 console.log("Server running on port: " + config.port);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0655ca50d99c2242dbc2fdf56ae8dcacc275394a
