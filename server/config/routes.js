@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 64db8ed4d6a1ecff8f6a08a2e758ddbac2c58c03
 module.exports = function(app) {
 	app.get('/partial/:partialArea/:partialName', function(req, res){
     	res.render('../../public/app/' + req.params.partialArea + '/' + req.params.partialName)

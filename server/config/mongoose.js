@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 var mongoose = require('mongoose'),
 	passport = require('passport'),
 	LocalPassport = require('passport-local');
+=======
+var mongoose = require('mongoose');
+>>>>>>> 64db8ed4d6a1ecff8f6a08a2e758ddbac2c58c03
 
 module.exports = function(config) {
 	mongoose.connect(config.db);
@@ -18,6 +22,7 @@ module.exports = function(config) {
 	db.on('error', function(err) {
     	console.log('Database error: ' + err);
 	});
+<<<<<<< HEAD
 
 	var userSchema = mongoose.Schema ({
 		username: String,
